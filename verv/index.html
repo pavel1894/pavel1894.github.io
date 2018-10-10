@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Test work</title>
+</head>
+<body>
+       	<header id="top">
+       			<div class="main">
+       				<div class="row">
+       					<div class="col-lg-5 col-md-5 col-sm-6 col-xs-7 clearfix">
+							<a href="#" title="logo"><img src="img/logo.png" class="logo " alt="Logo"></a>
+							<h1>Meditation & Sounds by Verv</h1>
+							<p class="major">A unique app with a complex approach to mindfulness and anxiety relief</p>
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 clearfix">	
+							<button class="btn clearfix" >Start my FREE TRIAL
+								<img src="img/click.png" class="click pull-right" alt="click">
+							</button>
+						</div>	
+       				</div>
+       			</div>
+       	</header>
+       	<section class="form-block">
+		       	<div class="main ">
+		       		<div class="row">
+		       			<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-offset-2 col-sm-8 col-xs-12 text-center">
+		       				<form action="">
+
+									<button class="btnf сlearfix">Sign up with Facebook
+											<img src="img/facebook.png" class="click pull-right" alt="click">
+									</button>
+
+									<input type="email" placeholder="Email" class="email center-block">
+
+									<input type="password" placeholder="Password" class="passw center-block">
+									<button class="btn clearfix">Sign up
+									<img src="img/click.png" class="click pull-right" alt="click">
+									</button>
+							</form>
+							<p class="log">Already registered? <a href="#">Log in.</a></p>
+							<p class="policy">By continuing you accept our <a href="">Terms and Conditions and Privacy Policy</a></p>
+						</div>	
+					</div>	
+		       	</div>
+       	</section>
+      <section class="med-practice">
+      <h2 class="text-center" id="practice">Deepen your meditation practice</h2>
+
+      			<div class="main">
+      					<div class="row practice">
+      							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+      									<img src="img/sounds.png" alt="sounds" class="center-block">
+      									<p class="name-practice">Meditation sounds</p>
+      									<p class="descr">Put yourself into a restful sleep or stay focused  - our great music is here for satisfying different needs.</p>
+      							</div>
+      							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+      									<img src="img/sleep.png" alt="better" class="center-block">
+      									<p class="name-practice">Sleep better</p>
+      									<p class="descr">Full set of guided meditations will help your mind fall asleep and restore energy levels. </p>
+      							</div>
+      							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+      									<img src="img/relatonship.png   " alt="relationship" class="center-block">
+      									<p class="name-practice">Relationship</p>
+      									<p class="descr">Build strong and healthy relationship with all those who matter, deal with past hurts and love fully.</p>
+      							</div>
+      					</div>
+      			</div>
+      	</section>
+      	<footer>
+		      	<section>
+		      		<div class="main ">
+		      				<div class="terms text-center">
+			      				<a href="#">Terms & Conditions</a>
+			      				<div class="dot"></div>
+			      				<a href="#">Support</a>
+		      				</div>
+
+		      		</div>
+		      	</section>
+		      	<section class="btn-up text-center" id="btn-up">
+		      		
+		      			<a href="#top" class="up"><i class="fas fa-chevron-up"></i></a>
+
+		      	</section>
+      	</footer>
+      	
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+      		$(".btn").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".form-block").offset().top},
+        'slow');
+});
+      	$(document).ready(function(){
+    $("#btn-up").on("click","a", function (event) {
+        event.preventDefault();
+
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+
+         
+
+
+        $('body,html').animate({scrollTop: top}, 1000);
+
+    });
+});
+	
+      	</script>
+      	
+
+</body>
+</html>

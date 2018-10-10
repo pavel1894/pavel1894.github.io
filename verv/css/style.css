@@ -1,0 +1,242 @@
+html,body{
+	height: 100%;
+	min-height: 100%;
+
+}
+h1,h2,h3{
+	color: #fff;
+}
+h1{
+	font-size: 4.25em;
+}
+h2{
+	font-size: 2.3em;
+}
+a{
+	color: #5dbacd!important;
+}
+
+p.major{
+	color: #fff;
+	font-size: 2.3em;
+	font-weight: lighter;
+	margin-top: 40px;
+	letter-spacing: 1px;
+}
+header{
+	background:url(../img/background.png)no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%;
+}
+.logo{
+
+	margin:40px 0px;
+	display: block;
+	height: auto;
+}
+.main{
+	width: 80%;
+	margin: 0 auto;
+}
+button.btn{
+	margin-top: 60px;
+	vertical-align: middle;
+	font-size: 1.6em;
+	color: #fff;
+	background: #5dbacd;
+	padding: 22px 15px 15px 25px;
+	border-radius: 40px;
+	width: 90%;
+	text-align: left;
+}
+button.btn:hover{
+	color: #fff;
+}
+button.btn:visited{
+	color: #fff;
+}
+button.btnf{
+	margin-top: 60px;
+	margin-bottom: 45px;
+	font-size: 1.6em;
+	color: #fff;
+	background: #3d4575;
+	padding: 22px 15px 15px 25px;
+	border-radius: 40px;
+	width: 90%;
+	text-align: left;
+}
+.form-block{
+	background: #b9e3ed;
+}
+img.click{
+	margin-top: -7px;
+}
+input.passw,input.email{
+	font-size:1.4em;
+	display: block;
+	width: 90%;
+	
+	border: none;
+	margin-top: 35px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #819cb7;
+background: #b9e3ed;
+}
+
+input.passw::-webkit-input-placeholder {color:#819cb7;}
+input.passw::-moz-placeholder          {color:#819cb7;}/* Firefox 19+ */
+input.passw:-moz-placeholder           {color:#819cb7;}/* Firefox 18- */
+input.passw:-ms-input-placeholder      {color:#819cb7;}
+
+input.email::-webkit-input-placeholder {color:#819cb7;}
+input.email::-moz-placeholder          {color:#819cb7;}/* Firefox 19+ */
+input.email:-moz-placeholder           {color:#819cb7;}/* Firefox 18- */
+input.email:-ms-input-placeholder      {color:#819cb7;}
+
+.log{
+	font-size: 1.2em;
+	margin-top: 45px;
+}
+.policy{
+	font-size: 1em;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.med-practice{
+	background: #3e4676;
+	border-bottom:1px solid #7e84a4;
+}
+.med-practice h2{
+	margin-top: 0px;
+	padding-top: 70px;
+	margin-bottom: 70px;
+
+}
+.name-practice{
+	margin-top: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.6em;
+	letter-spacing: 1px;
+	
+}
+.practice{
+	padding-bottom: 75px;
+}
+.descr{
+	color: #b9e3ed;
+	font-size: 1.6em;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.terms{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+}
+.dot{
+	
+	width:5px;
+	height: 5px;
+	background: #5dbacd;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.btn-up{
+	background: #5dbacd;
+	  
+}
+a.up{
+	color: #fff!important;
+	font-size: 2em;
+	display:block;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+@media screen and (max-width:1460px){
+	button.btn{
+	font-size: 1.2em;
+	margin-bottom: 100px;
+	
+}
+img.click{
+	margin-top: -7px;
+	max-width: 35px;
+}
+button.btnf{
+	font-size: 1.2em;	
+}
+}
+@media screen and (max-width:1460px){
+h1{
+	font-size: 3em;
+}
+p.major{
+	
+	font-size: 1.6em;
+	margin-top: 30px;
+	
+}
+	}
+@media screen and (max-width:989px){
+button.btn{
+	
+font-size: 1.6em;
+	
+}
+img.click{
+	margin-top: -7px;
+	max-width: 100%;
+}
+button.btnf{
+	font-size: 1.6em;	
+}
+.logo{
+	margin: 20px 0px;
+}
+h1{
+	font-size: 2em;
+}
+p.major{
+	
+	font-size: 1.1em;
+	
+}
+}
+@media screen and (max-width:540px){
+
+.logo{
+	max-width: 	140px;
+}
+button.btn{
+	font-size: 1.2em;
+	margin-bottom: 0px;
+	}
+button.btnf{
+	font-size: 1.2em;	
+}	
+img.click{
+	margin-top: -7px;
+	max-width: 35px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
